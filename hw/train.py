@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import math
 import random
 from pathlib import Path
 from typing import Any
@@ -9,7 +8,6 @@ from typing import Any
 import numpy as np
 import torch
 import yaml
-
 from torch import nn
 from torch.utils.data import DataLoader
 

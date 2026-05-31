@@ -6,12 +6,10 @@ import re
 from pathlib import Path
 from typing import Any
 
+import torch
 import yaml
 
-from hw.constants import CHOICES
-import torch
-
-from hw.constants import IMAGE_END_TOKEN, IMAGE_START_TOKEN, IMAGE_TOKEN
+from hw.constants import CHOICES, IMAGE_END_TOKEN, IMAGE_START_TOKEN, IMAGE_TOKEN
 from hw.dataset import MathVQADataset
 from hw.model import MathVLM, ModelConfig
 from hw.processor import MathVLMProcessor, ProcessorConfig
